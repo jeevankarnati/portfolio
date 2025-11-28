@@ -20,7 +20,7 @@ export default function Home() {
 
         {/* Subtext */}
         <p className="text-lg sm:text-xl text-zinc-400 mb-10 max-w-2xl animate-fade-in-up delay-100">
-          I'm currently crafting a new portfolio experience. Stay tuned for
+          I&apos;m currently crafting a new portfolio experience. Stay tuned for
           something amazing.
         </p>
 
