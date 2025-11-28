@@ -1,3 +1,5 @@
+import { Logo } from "@/components/Logo";
+
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-black text-white overflow-hidden relative selection:bg-purple-500/30">
@@ -8,9 +10,7 @@ export default function Home() {
       <main className="z-10 flex flex-col items-center text-center px-4 sm:px-8 max-w-4xl w-full">
         {/* Logo or Brand Placeholder */}
         <div className="mb-8 animate-fade-in-down">
-          <div className="h-16 w-16 bg-linear-to-br from-purple-500 to-blue-600 rounded-2xl flex items-center justify-center shadow-lg shadow-purple-500/20">
-            <span className="text-2xl font-bold">J</span>
-          </div>
+          <Logo />
         </div>
 
         {/* Main Heading */}
